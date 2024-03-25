@@ -99,7 +99,7 @@ class FilmCRUD(BaseCRUD):
 # film_crud.search_films(actor_id=1)
 # film_crud.search_films(actor="Penelope ")
 
-# 데이터베이스 연결을 닫습니다.
+# 데이터베이스 연결
 film_crud = FilmCRUD()
 print("="*50)
 print("안녕하세요 멋사레코드입니다")
